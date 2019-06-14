@@ -1,0 +1,41 @@
+{
+  "name": "contracts-automation-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "convert-excel-to-json": "^1.6.1",
+    "docxtemplater": "^3.11.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "formidable": "^1.2.1",
+    "handlebars": "^4.1.2",
+    "jszip": "^2.6.1",
+    "mkdirp": "^0.5.1",
+    "node-json2html": "^1.2.0",
+    "read-excel-file": "^4.0.1",
+    "xls-to-json": "^0.5.2",
+    "xlsx": "^0.14.3",
+    "xlsx-to-json": "^0.3.0"
+  },
+  "devDependencies": {
+    "electron": "^5.0.3"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "pkg": {
+    "scripts": "index.js",
+    "assets": [
+      "views/**/*",
+      "styles/**/*"
+    ],
+    "targets": [
+      "node10"
+    ]
+  },
+  "author": ".",
+  "license": "ISC"
+}
