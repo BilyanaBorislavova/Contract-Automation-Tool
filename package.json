@@ -17,7 +17,7 @@
     "node-json2html": "^1.2.0",
     "read-excel-file": "^4.0.1",
     "xls-to-json": "^0.5.2",
-    "xlsx": "^0.14.3",
+    "xlsx": "^0.17.0",
     "xlsx-to-json": "^0.3.0"
   },
   "devDependencies": {
