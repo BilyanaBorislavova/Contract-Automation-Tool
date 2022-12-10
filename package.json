@@ -8,7 +8,7 @@
     "body-parser": "^1.19.0",
     "convert-excel-to-json": "^1.6.1",
     "docxtemplater": "^3.11.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^3.1.0",
     "formidable": "^1.2.1",
     "handlebars": "^4.1.2",
